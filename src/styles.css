@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+	font-family: 'Geist', sans-serif;
+	box-sizing: border-box;
+}
+
+.monospace {
+	font-family: 'Geist Mono';
+}
+
+:root {
+	/* eigengrau: fixed 10% lightness steps */
+	--eigengrau-0: hsl(240 14% 10%);
+	--eigengrau-1: hsl(240 14% 20%);
+	--eigengrau-2: hsl(240 14% 30%);
+	--eigengrau-3: hsl(240 14% 40%);
+	--eigengrau-4: hsl(240 14% 50%);
+	--eigengrau-5: hsl(240 14% 60%);
+	--eigengrau-6: hsl(240 14% 70%);
+	--eigengrau-7: hsl(240 14% 80%);
+	--eigengrau-8: hsl(240 14% 90%);
+	--eigengrau-9: hsl(240 14% 95%);
+	--eigengrau-10: hsl(240 14% 98%);
+
+	/* bubblegum */
+	--bubblegum-0: color-mix(in oklab, var(--bubblegum-5), black calc(var(--step) * 5));
+	--bubblegum-1: color-mix(in oklab, var(--bubblegum-5), black calc(var(--step) * 4));
+	--bubblegum-2: color-mix(in oklab, var(--bubblegum-5), black calc(var(--step) * 3));
+	--bubblegum-3: color-mix(in oklab, var(--bubblegum-5), black calc(var(--step) * 2));
+	--bubblegum-4: color-mix(in oklab, var(--bubblegum-5), black var(--step));
+	--bubblegum-5: hsl(348 100% 66%);
+	--bubblegum-6: color-mix(in oklab, var(--bubblegum-5), white var(--step));
+	--bubblegum-7: color-mix(in oklab, var(--bubblegum-5), white calc(var(--step) * 2));
+	--bubblegum-8: color-mix(in oklab, var(--bubblegum-5), white calc(var(--step) * 3));
+	--bubblegum-9: color-mix(in oklab, var(--bubblegum-5), white calc(var(--step) * 4));
+	--bubblegum-10: color-mix(in oklab, var(--bubblegum-5), white calc(var(--step) * 5));
+
+	/* azure */
+	--azure-0: color-mix(in oklab, var(--azure-5), black calc(var(--step) * 5));
+	--azure-1: color-mix(in oklab, var(--azure-5), black calc(var(--step) * 4));
+	--azure-2: color-mix(in oklab, var(--azure-5), black calc(var(--step) * 3));
+	--azure-3: color-mix(in oklab, var(--azure-5), black calc(var(--step) * 2));
+	--azure-4: color-mix(in oklab, var(--azure-5), black var(--step));
+	--azure-5: hsl(214 77% 56%);
+	--azure-6: color-mix(in oklab, var(--azure-5), white var(--step));
+	--azure-7: color-mix(in oklab, var(--azure-5), white calc(var(--step) * 2));
+	--azure-8: color-mix(in oklab, var(--azure-5), white calc(var(--step) * 3));
+	--azure-9: color-mix(in oklab, var(--azure-5), white calc(var(--step) * 4));
+	--azure-10: color-mix(in oklab, var(--azure-5), white calc(var(--step) * 5));
+
+	/* caramel */
+	--caramel-0: color-mix(in oklab, var(--caramel-5), black calc(var(--step) * 5));
+	--caramel-1: color-mix(in oklab, var(--caramel-5), black calc(var(--step) * 4));
+	--caramel-2: color-mix(in oklab, var(--caramel-5), black calc(var(--step) * 3));
+	--caramel-3: color-mix(in oklab, var(--caramel-5), black calc(var(--step) * 2));
+	--caramel-4: color-mix(in oklab, var(--caramel-5), black var(--step));
+	--caramel-5: hsl(30 100% 55%);
+	--caramel-6: color-mix(in oklab, var(--caramel-5), white var(--step));
+	--caramel-7: color-mix(in oklab, var(--caramel-5), white calc(var(--step) * 2));
+	--caramel-8: color-mix(in oklab, var(--caramel-5), white calc(var(--step) * 3));
+	--caramel-9: color-mix(in oklab, var(--caramel-5), white calc(var(--step) * 4));
+	--caramel-10: color-mix(in oklab, var(--caramel-5), white calc(var(--step) * 5));
+
+	--step: 15%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
