@@ -1,0 +1,14 @@
+.writing-section {
+	color: var(--eigengrau-9);
+	background-color: var(--azure-5);
+}
+
+.music-section {
+	color: var(--eigengrau-9);
+	background-color: var(--caramel-5);
+}
+
+.coding-section {
+	color: var(--eigengrau-0);
+	background-color: var(--bubblegum-5);
+}
