@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { Section } from '../section/section';
+import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
 	selector: 'app-homepage',
-	imports: [Section],
+	imports: [RouterOutlet, RouterLink, RouterLinkActive],
 	templateUrl: './homepage.html',
 	styleUrl: './homepage.css',
 })
